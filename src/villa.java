@@ -36,7 +36,7 @@ public class villa extends ejendom {
         this.pris = pris;
     }
 
-    public int prisPerKvadratmeter (){
-        return this.antalBeboedeKvadratmeter / this.pris;
+    public double prisPerKvadratmeter() {
+        return (double) pris / antalBeboedeKvadratmeter;
     }
 }

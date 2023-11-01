@@ -13,6 +13,9 @@ public class Main {
         e.add(e1);
 
         udskriv(e);
+        System.out.println(v1.prisPerKvadratmeter());
+        System.out.println(b1.prisPerKvadratmeter());
+        System.out.println(e1.prisPerKvadratmeter());
 
     }
     public static void udskriv(ArrayList <ejendom> e){

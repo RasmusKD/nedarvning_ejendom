@@ -36,7 +36,8 @@ public class butik extends ejendom {
         this.pris = pris;
     }
 
-    public int prisPerKvadratmeter (){
-        return this.beboelsesareal / this.pris;
+
+    public double prisPerKvadratmeter() {
+        return (double) pris / (beboelsesareal + butiksareal);
     }
 }

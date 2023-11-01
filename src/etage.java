@@ -46,7 +46,7 @@ public class etage extends ejendom{
         this.pris = pris;
     }
 
-    public void prisPerKvadratmeter (){
-        System.out.println(this.beboelsesareal / this.pris);
+    public double prisPerKvadratmeter() {
+        return (double) pris / (beboelsesareal + butiksareal);
     }
 }
